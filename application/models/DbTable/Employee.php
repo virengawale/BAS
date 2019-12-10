@@ -49,6 +49,5 @@ class Application_Model_DbTable_Employee extends Zend_Db_Table_Abstract
         $where = array('id = ?' => $request->getParam('id'));
         $this->delete($where);
     }
-
 }
 
